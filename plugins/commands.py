@@ -105,7 +105,7 @@ async def start(client, message):
         m=await message.reply_text("🙏 THANKS FOR STARTING ME 💕😘")
         await asyncio.sleep(1)
         await m.delete()
-       await message.reply_chat_action(enums.ChatAction.TYPING)
+        await message.reply_chat_action(enums.ChatAction.TYPING)
         m=await message.reply_sticker("CAACAgUAAxkBAAEJoAlkqEIGunZ2ondh9tSQnxxAznHnUwACsQQAAlyNAVe6mxYkaWScui8E")
         await asyncio.sleep(1)
         await m.delete() 
