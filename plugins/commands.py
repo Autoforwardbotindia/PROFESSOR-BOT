@@ -98,11 +98,11 @@ async def start(client, message):
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_chat_action(enums.ChatAction.TYPING)
-        m=await message.reply_sticker("")
+        m=await message.reply_sticker("CAACAgUAAxkBAAEJoAVkqD9e07py2r4ehU0Y3wV2UWcz6QACjgUAAmyZ-FcL475IRHbgCS8E")
         await asyncio.sleep(1)
         await m.delete()
         await message.reply_chat_action(enums.ChatAction.TYPING)
-        m=await message.reply_sticker("CAACAgUAAxkBAAIFNGJSlfOErbkSeLt9SnOniU-58UUBAAKaAAPIlGQULGXh4VzvJWoeBA")
+        m=await message.reply_text("🙏 THANKS FOR STARTING ME 💕😘")
         await asyncio.sleep(1)
         await m.delete()
        await message.reply_chat_action(enums.ChatAction.TYPING)
